@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>psedeuo selectors samples</title>
+    <style>
+        .box{height: 20px; border: 1px solid blue;color: blanchedalmond; }
+        .box:not(.dontselectme){background-color: blue;}
+        .box:hover{background-color: gray;}
+        .box:nth-child(5){background-color: yellow; color: black; font-size: 20px;}
+    </style>
+</head>
+<body>
+    <div #="parent">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box dontselectme"></div>
+<div class="box"></div>
+<div class="box">Selectme</div>
+<div class="box"></div>
+<div class="box"></div>
+
+
+    </div>
+    
+</body>
+</html>

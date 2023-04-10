@@ -1,0 +1,5 @@
+body{background-color:antiquewhite; 
+    background-image: url("unsplash.jpg.jpg");
+    
+}
+.floating-image{float:left;border: 1px solid black}
