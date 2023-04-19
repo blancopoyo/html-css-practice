@@ -2,3 +2,12 @@ body {background-color:seashell;font-family: 'Roboto', sans-serif;}
 #title{background-color:lavender;}
 
 .container{ font-family: 'Roboto', sans-serif;}
+
+.blanco{font-size:3rem; padding: 5%;}
+.blancosportstext{padding: 5%; background-color: #000;color:#ffff}
+
+.target{padding:5%}
+.responsive{padding:5%;}
+.targetsaka{padding:5%;}
+
+@media (max-width:1028px) {.carousel-item {padding:7% 10%; background-color: black; transform: rotate(45deg);}}
