@@ -10,4 +10,6 @@ body {background-color:seashell;font-family: 'Roboto', sans-serif;}
 .responsive{padding:5%;}
 .targetsaka{padding:5%;}
 
+.fot{height:1px}
+
 @media (max-width:1028px) {.carousel-item {padding:7% 10%; background-color: black; transform: rotate(45deg);}}
