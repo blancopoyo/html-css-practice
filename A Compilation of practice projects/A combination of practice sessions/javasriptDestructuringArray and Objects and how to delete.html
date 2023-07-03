@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // This is an Example of destructuring arrays and objects in javascript. we created an array of months, then we pulled out only jan and feb,
+        //  if we check web we ill see January february. so basically its how to pull out an item from a list/array. the jan and feb is still part of the months variables that we declared, 
+        // if we do console.log(months), we will still se jan and feb as part of the months
+
+const months = ['January','February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ]
+
+const [first, second] = months
+
+console.log(first, second)
+
+console.log(months)
+// Below is an Example of destructuring objects. we created an objects that has profile of someone, then we pulled out only name and profession. if we check web console we see the effect 
+
+const Profile = {
+    "name": 'Blanco',
+    "profession" : 'Web Developer',
+    "Twitter" : '@iam_Efanyi',
+    "PoliticalView": 'Neutral',
+    "BestSports": 'Fooball',
+    "FavouriteFood" : 'Eba and Egusi soup'
+     }
+
+    delete Profile['name']
+
+const {name, profession,} = Profile
+console.log(name, profession)
+console.log(Profile)
+console.log(Profile['BestSports'])
+
+console.log(Profile)
+
+    </script>
+</body>
+</html>

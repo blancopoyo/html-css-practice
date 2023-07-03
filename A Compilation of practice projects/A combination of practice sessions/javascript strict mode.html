@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//  Strict mode is a way of making your JavaScript more secure and strict, basically, you cannot blindly set variables, you must use them with var const let.
+//   it helps to quickly identify error. we will put the "use strict" just under the opening script tag.
+//      now lets say for example, we did y= "Thing" if we check console it wont work or else we add let y = thing.  but if we remove the use strict the y = "Thing" will work.
+// but if we add a let const or var at the back of the variable, it will alwyas work even if we use the strict mode.
+
+// below we could see that we put the use strict, if we go to web console there will be error. 
+// the use strict will detect the error. however if we remove the use strict we wont see error.
+"use strict"
+
+ y = "things"
+ 
+ let b = "Something"
+ console.log(b)
+ 
+    </script>
+</body>
+</html>

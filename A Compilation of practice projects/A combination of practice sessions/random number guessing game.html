@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// we created a game using a while loop. we set a number variable that has a prompt that will allow a user to enter random number,
+//  that if the random number falls within the number we have set/programmed which is 10, it should show an alert that says YOU WIN. the we added the break to make it stop.
+//   if the user didnt guess the random number correctly, it will continue looping by asking them to continue input number.
+    //Then we added an else that will tell them the wrong number they initially inputed
+
+while(true) {
+    let number = prompt("Guess the number")
+    number = Number(number);
+    const randomNumber= Math.ceil(Math.random() * 10 )
+    if (number === randomNumber) {
+     alert("YOU WIN")
+     break;
+    }
+    else { console.log("You guessed", number, "But the right number was", randomNumber)}
+}
+
+    </script>
+</body>
+</html>
